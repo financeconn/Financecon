@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Resources | Financecon</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    body { font-family: 'Inter', sans-serif; transition: all 0.3s ease; }
+    .dark-mode { background-color: #1A1A1A; color: #E5E7EB; }
+    .section-divider { height: 2px; background: linear-gradient(to right, #16a34a, transparent); margin: 2rem 0; }
+  </style>
+</head>
+<body class="bg-[#F5F6FA] text-gray-800">
+  <header class="bg-white shadow p-4 flex justify-between items-center sticky top-0 z-50">
+    <div class="text-2xl font-bold text-green-700">Financecon</div>
+    <nav class="space-x-4">
+      <a href="index.html" class="text-gray-700 hover:text-green-700">Home</a>
+      <a href="about.html" class="text-gray-700 hover:text-green-700">About</a>
+      <a href="community.html" class="text-gray-700 hover:text-green-700">Community</a>
+      <a href="resources.html" class="text-green-700 font-semibold">Resources</a>
+      <a href="highlights.html" class="text-gray-700 hover:text-green-700">Highlights</a>
+      <button id="toggle-dark" class="ml-4 px-2 py-1 border rounded text-sm">🌓</button>
+    </nav>
+  </header>
+
+  <main class="max-w-5xl mx-auto px-6 py-20">
+    <h1 class="text-4xl font-bold text-green-700 mb-6 text-center">Finance Resources</h1>
+    <p class="text-center text-gray-600 mb-12">Explore curated materials to boost your knowledge and career in finance and economics.</p>
+
+    <section>
+      <h2 class="text-2xl font-semibold text-green-700 mb-4">🎓 Courses</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li><a href="#" class="text-green-700 hover:underline">Financial Markets (Yale University - Coursera)</a></li>
+        <li><a href="#" class="text-green-700 hover:underline">Corporate Finance Essentials (IESE Business School)</a></li>
+        <li><a href="#" class="text-green-700 hover:underline">Introduction to Economics (MIT OpenCourseWare)</a></li>
+      </ul>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section>
+      <h2 class="text-2xl font-semibold text-green-700 mb-4">📘 Articles</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li><a href="#" class="text-green-700 hover:underline">Understanding Inflation in 2025</a></li>
+        <li><a href="#" class="text-green-700 hover:underline">How Sustainable Finance Is Changing Business</a></li>
+        <li><a href="#" class="text-green-700 hover:underline">Personal Budgeting for Students</a></li>
+      </ul>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section>
+      <h2 class="text-2xl font-semibold text-green-700 mb-4">🎥 Videos</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li><a href="#" class="text-green-700 hover:underline">Crash Course Economics - YouTube</a></li>
+        <li><a href="#" class="text-green-700 hover:underline">How the Stock Market Works (TED-Ed)</a></li>
+      </ul>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section>
+      <h2 class="text-2xl font-semibold text-green-700 mb-4">🛠️ Tools</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li><a href="#" class="text-green-700 hover:underline">Google Sheets Budget Template</a></li>
+        <li><a href="#" class="text-green-700 hover:underline">Compound Interest Calculator</a></li>
+        <li><a href="#" class="text-green-700 hover:underline">Portfolio Tracker (Notion Template)</a></li>
+      </ul>
+    </section>
+
+    <div class="section-divider"></div>
+
+    <section>
+      <h2 class="text-2xl font-semibold text-green-700 mb-4">💡 Career Tips</h2>
+      <p class="text-gray-700">Learn how to craft the perfect finance resume, ace interviews, and build a personal brand that attracts recruiters.</p>
+    </section>
+  </main>
+
+  <footer class="bg-white p-6 text-center text-gray-500 text-sm">
+    © 2025 Financecon. Empowering future financial leaders.
+  </footer>
+
+  <script>
+    document.getElementById('toggle-dark').addEventListener('click',()=>document.body.classList.toggle('dark-mode'));
+  </script>
+</body>
+</html>
